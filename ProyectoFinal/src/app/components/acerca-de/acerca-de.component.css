@@ -1,10 +1,10 @@
 .row{
-    padding: 10px;
+    padding: 80px;
 }
 
 div{
-    background-color:steelblue;
-    text-align: center;
+    background-color:rgb(57, 136, 167);
+    text-align: right;
     
 
 }
@@ -12,19 +12,18 @@ div{
 /* estilo de nomnbre*/
 #nombre{
         font-weight:bold;
-        margin-top: 10px;
-
+        margin-top: 50px;
 }
 
  /*foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-        width: 40%;
+        width: 36%;
         border-radius: 100%;
-        box-shadow: -5px -5px 10px rgb(199, 225, 241);
+        box-shadow: -5px -5px 10px rgb(122, 255, 255);
         left: 1%;
-        top: 685px;
+        top: 500px;
 
     }
 }
@@ -34,9 +33,9 @@ div{
         position: absolute;
         width: 50%;
         border-radius: 100%;
-        box-shadow: -5px -5px 10px rgb(199, 225, 241);
+        box-shadow: -5px -5px 10px rgb(122, 255, 255);
         left: 30%;
-        top: 735px;
+        top: 350px;
 
     }
 }
